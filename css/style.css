@@ -350,7 +350,10 @@ body {
   }
 
   .titulo {
+    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .titulo h1 {
@@ -374,14 +377,18 @@ body {
   .titulo .button {
     width: 50%;
     padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #6c51c5;
-    color: white;
+
     border: none;
     border-radius: 0.5em;
   }
 
   .titulo .button p {
     font-size: 1.1em;
+    color: white;
     margin: 0;
   }
 }
