@@ -36,6 +36,12 @@ body {
   padding: 0;
 }
 
+details summary:focus-within,
+details:focus-within summary {
+  background-color: #eee;
+  outline: 1px solid #ccc;
+}
+
 .card-body {
   padding: 0 1em 0.5em 1em !important;
 }
